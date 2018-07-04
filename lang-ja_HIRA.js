@@ -179,7 +179,7 @@ SnapTranslator.dict.ja_HIRA = {
 
     // translations meta information
     'language_name':
-        'にほんご', // the name as it should appear in the language menu
+        '�?ほん�?', // the name as it should appear in the language menu
     'language_translator':
         'Kazuhiro Abe', // your name for the Translators tab
     'translator_e-mail':
@@ -192,13 +192,13 @@ SnapTranslator.dict.ja_HIRA = {
     'untitled':
         'めいしょうみせってい',
     'development mode':
-        'かいはつしゃモード',
+        'かい�?つしゃモード',
 
     // categories:
     'Motion':
-        'うごき',
+        'うご�?',
     'Looks':
-        'みため',
+        'みた�?',
     'Sound':
         'おと',
     'Pen':
@@ -212,17 +212,17 @@ SnapTranslator.dict.ja_HIRA = {
     'Variables':
         'へんすう',
     'Lists':
-        'リスト',
+        '�?スト',
     'Other':
-        'そのた',
+        'その�?',
 
     // editor:
     'draggable':
-        'ドラッグかのう',
+        'ドラッグかの�?',
 
     // tabs:
     'Scripts':
-        'スクリプト',
+        'スク�?プト',
     'Costumes':
         'コスチューム',
     'Sounds':
@@ -230,17 +230,17 @@ SnapTranslator.dict.ja_HIRA = {
 
     // names:
     'Sprite':
-        'スプライト',
+        'スプライ�?',
     'Stage':
         'ステージ',
 
     // rotation styles:
     'don\'t rotate':
-        'かいてんしない',
+        'かいてんしな�?',
     'can rotate':
         'かいてんする',
     'only face left/right':
-        'さゆうにはんてんするだけ',
+        'さゆうに�?んてんするだ�?',
 
     // new sprite button:
     'add a new sprite':
@@ -248,10 +248,10 @@ SnapTranslator.dict.ja_HIRA = {
 
     // tab help
     'costumes tab help':
-        'ほかのWebページやコンピューターじょうのがぞうを\n'
-            + 'ここにドロップしてよみこみます',
+        'ほかのWebページやコンピューターじょう�?がぞうを\n'
+            + 'ここ�?ドロップしてよみこみます',
     'import a sound from your computer\nby dragging it into here':
-        'コンピューターじょうのサウンドを\nここにドラッグしてよみこみます',
+        'コンピューターじょう�?サウンドを\nここ�?ドラッグしてよみこみます',
 
     // primitive blocks:
 
@@ -287,10 +287,10 @@ SnapTranslator.dict.ja_HIRA = {
 
     // motion:
     'Stage selected:\nno motion primitives':
-        'せんたくされたステージ:\nうごきのプリミティブがありません',
+        'せんたくされたステー�?:\nうごきのプリミティブがありません',
 
     'move %n steps':
-        '%n ほうごかす',
+        '%n ほうごか�?',
     'turn %clockwise %n degrees':
         '%clockwise %n どまわす',
     'turn %counterclockwise %n degrees':
@@ -300,92 +300,92 @@ SnapTranslator.dict.ja_HIRA = {
     'point towards %dst':
         '%dst へむける',
     'go to x: %n y: %n':
-        'xざひょうを %n 、yざひょうを %n にする',
+        'xざひょう�? %n 、yざひょう�? %n �?する',
     'go to %dst':
-        '%dst へいく',
+        '%dst へい�?',
     'glide %n secs to x: %n y: %n':
-        '%n びょうでxざひょうを %n に、yざひょうを %n にかえる',
+        '%n びょうでxざひょう�? %n �?、yざひょう�? %n �?かえ�?',
     'change x by %n':
-        'xざひょうを %n ずつかえる',
+        'xざひょう�? %n ずつかえ�?',
     'set x to %n':
-        'xざひょうを %n にする',
+        'xざひょう�? %n �?する',
     'change y by %n':
-        'yざひょうを %n ずつかえる',
+        'yざひょう�? %n ずつかえ�?',
     'set y to %n':
-        'ざひょうを %n にする',
+        'ざひょう�? %n �?する',
     'if on edge, bounce':
-        'もしはしについたら、はねかえる',
+        'もし�?しについたら、は�?かえ�?',
     'x position':
         'xざひょう',
     'y position':
         'yざひょう',
     'direction':
-        'むき',
+        'む�?',
 
     // looks:
     'switch to costume %cst':
-        'コスチュームを %cst にする',
+        'コスチューム�? %cst �?する',
     'next costume':
-        'つぎのコスチュームにする',
+        'つぎ�?コスチューム�?する',
     'costume #':
-        'コスチュームのばんごう',
+        'コスチューム�?ばんごう',
     'say %s for %n secs':
-        '%s と %n びょういう',
+        '%s �? %n びょうい�?',
     'say %s':
-        '%s という',
+        '%s とい�?',
     'think %s for %n secs':
-        '%s と %n びょうかんがえる',
+        '%s �? %n びょうかんがえる',
     'think %s':
         '%s とかんがえる',
     'Hello!':
-        'こんにちは!',
+        'こん�?ちは!',
     'Hmm...':
-        'うーん...',
+        'うー�?...',
     'change %eff effect by %n':
-        '%eff のこうかを %n ずつかえる',
+        '%eff �?こうかを %n ずつかえ�?',
     'set %eff effect to %n':
-        '%eff のこうかを %n にする',
+        '%eff �?こうかを %n �?する',
     'clear graphic effects':
         'がぞうこうかをなくす',
     'change size by %n':
-        'おおきさを %n ずつかえる',
+        'おおきさ�? %n ずつかえ�?',
     'set size to %n %':
-        'おおきさを %n にする',
+        'おおきさ�? %n �?する',
     'size':
         'おおきさ',
     'show':
         'ひょうじする',
     'hide':
-        'かくす',
+        'かく�?',
     'go to front':
-        'まえにだす',
+        'まえ�?だす',
     'go back %n layers':
-        '%n そうさげる',
+        '%n そうさげ�?',
 
     'development mode \ndebugging primitives:':
-        'かいはつしゃモード\nデバッグようプリミティブ:',
+        'かい�?つしゃモード\nデバッグようプリミティブ:',
     'console log %mult%s':
-        'コンソールログ %mult%s',
+        'コンソー�?�?�? %mult%s',
     'alert %mult%s':
         'けいこく: %mult%s',
 
     // sound:
     'play sound %snd':
-        '%snd のおとをならす',
+        '%snd �?おとをならす',
     'play sound %snd until done':
-        'おわるまで %snd のおとをならす',
+        'おわるま�? %snd �?おとをならす',
     'stop all sounds':
         'すべてのおとをとめる',
     'rest for %n beats':
-        '%n はくやすむ',
+        '%n �?くやすむ',
     'play note %n for %n beats':
-        '%n のおんぷを %n はくならす',
+        '%n �?おんぷを %n �?くならす',
     'change tempo by %n':
-        'テンポを %n ずつかえる',
+        'テンポを %n ずつかえ�?',
     'set tempo to %n bpm':
-        'テンポを %n BPMにする',
+        'テンポを %n BPM�?する',
     'tempo':
-        'テンポ',
+        'テン�?',
 
     // pen:
     'clear':
@@ -395,93 +395,93 @@ SnapTranslator.dict.ja_HIRA = {
     'pen up':
         'ペンをあげる',
     'set pen color to %clr':
-        'ペンのいろを %clr にする',
+        'ペン�?いろ�? %clr �?する',
     'change pen color by %n':
-        'ペンのいろを %n ずつかえる',
+        'ペン�?いろ�? %n ずつかえ�?',
     'set pen color to %n':
-        'ペンのいろを %n にする',
+        'ペン�?いろ�? %n �?する',
     'change pen shade by %n':
-        'ペンのこさを %n ずつかえる',
+        'ペン�?こさ�? %n ずつかえ�?',
     'set pen shade to %n':
-        'ペンのこさを %n にする',
+        'ペン�?こさ�? %n �?する',
     'change pen size by %n':
-        'ペンのふとさを %n ずつかえる',
+        'ペン�?ふとさを %n ずつかえ�?',
     'set pen size to %n':
-        'ペンのふとさを %n にする',
+        'ペン�?ふとさを %n �?する',
     'stamp':
         'スタンプ',
 
     // control:
     'when %greenflag clicked':
-        '%greenflag がおされたとき',
+        '%greenflag がおされたと�?',
     'when %keyHat key pressed':
-        '%keyHat がおされたとき',
+        '%keyHat がおされたと�?',
     'when I am clicked':
-        'じぶんがクリックされたとき',
+        'じぶんが�?�?ックされたと�?',
     'when I receive %msgHat':
         '%msgHat をうけとったとき',
     'broadcast %msg':
         '%msg をおくる',
     'broadcast %msg and wait':
-        '%msg をおくってまつ',
+        '%msg をおくってま�?',
     'Message name':
-        'メッセージめい',
+        'メッセージめ�?',
     'wait %n secs':
-        '%n びょうまつ',
+        '%n びょうま�?',
     'wait until %b':
         '%b までまつ',
     'forever %c':
-        'ずっと %c',
+        'ずっ�? %c',
     'repeat %n %c':
-        '%n かいくりかえす %c',
+        '%n かいくりかえ�? %c',
     'repeat until %b %c':
-        '%b までくりかえす %c',
+        '%b までくりかえ�? %c',
     'if %b %c':
-        'もし %b なら %c',
+        'もし %b �?�? %c',
     'if %b %c else %c':
-        'もし %b なら %c でなければ %c',
+        'もし %b �?�? %c でなけれ�? %c',
     'report %s':
         '%s をかえす',
     'stop block':
         'ブロックをとめる',
     'stop script':
-        'スクリプトをとめる',
+        'スク�?プトをとめる',
     'stop all %stop':
-        'すべてをとめる %stop',
+        'すべてをとめ�? %stop',
     'run %cmdRing %inputs':
-        '%cmdRing を %inputs でじっこうする',
+        '%cmdRing �? %inputs でじっこうす�?',
     'launch %cmdRing %inputs':
-        '%cmdRing を %inputs できどうする',
+        '%cmdRing �? %inputs できどうする',
     'call %repRing %inputs':
-        '%repRing を %inputs でよぶ',
+        '%repRing �? %inputs でよ�?',
     'run %cmdRing w/continuation':
-        'けいぞくつきで %cmdRing をじっこうする',
+        'けいぞくつき�? %cmdRing をじっこうす�?',
     'call %cmdRing w/continuation':
-        'けいぞくつきで %cmdRing をよぶ',
+        'けいぞくつき�? %cmdRing をよ�?',
     'warp %c':
-        'ワープする %c',
+        '�?ープする %c',
     'when I start as a clone':
-        'クローンされたとき',
+        '�?�?ーンされたと�?',
     'create a clone of %cln':
-        '%cln のクローンをつくる',
+        '%cln �?�?�?ーンをつくる',
     'myself':
         'じぶんじしん',
     'delete this clone':
-        'このクローンをさくじょする',
+        'この�?�?ーンをさくじょす�?',
 
     // sensing:
     'touching %col ?':
-        '%col にふれた',
+        '%col �?ふれ�?',
     'touching %clr ?':
-        '%clr いろにふれた',
+        '%clr いろ�?ふれ�?',
     'color %clr is touching %clr ?':
-        '%clr いろが %clr いろにふれた',
+        '%clr いろ�? %clr いろ�?ふれ�?',
     'ask %s and wait':
         '%s ときいてまつ',
     'what\'s your name?':
-        'あなたのなまえはなんですか?',
+        'あなたの�?まえ�?�?んですか?',
     'answer':
-        'こたえ',
+        'こた�?',
     'mouse x':
         'マウスのxざひょう',
     'mouse y':
@@ -489,11 +489,11 @@ SnapTranslator.dict.ja_HIRA = {
     'mouse down?':
         'マウスがおされた',
     'key %key pressed?':
-        '%key がおされた',
+        '%key がおされ�?',
     'distance to %dst':
-        '%dst までのきょり',
+        '%dst まで�?きょ�?',
     'reset timer':
-        'タイマーをリセット',
+        'タイマーをリセッ�?',
     'timer':
         'タイマー',
     'http:// %s':
@@ -501,98 +501,98 @@ SnapTranslator.dict.ja_HIRA = {
     'turbo mode?':
         'ターボモード?',
     'set turbo mode to %b':
-        'ターボーモードを %b にする',
+        'ターボー�?ード�? %b �?する',
 
     'filtered for %clr':
-        '%clr いろをちゅうしゅつ',
+        '%clr いろをちゅうしゅ�?',
     'stack size':
-        'スタックのおおきさ',
+        'スタック�?おおきさ',
     'frames':
         'フレーム',
 
     // operators:
     '%n mod %n':
-        '%n を %n でわったあまり',
+        '%n �? %n でわったあま�?',
     'round %n':
-        '%n をまるめる',
+        '%n をまるめ�?',
     '%fun of %n':
         '%fun %n',
     'pick random %n to %n':
-        '%n から %n までのらんすう',
+        '%n から %n まで�?らんすう',
     '%b and %b':
         '%b かつ %b',
     '%b or %b':
-        '%b または %b',
+        '%b また�? %b',
     'not %b':
-        '%b ではない',
+        '%b では�?�?',
     'true':
-        'はい',
+        '�?�?',
     'false':
-        'いいえ',
+        'いい�?',
     'join %words':
-        '%words をつなぐ',
+        '%words をつ�?�?',
     'hello':
-        'ハロー',
+        'ハロ�?',
     'world':
-        'ワールド',
-    'letter %n of %s':
-        '%n もじめのもじ %s',
+        '�?ール�?',
+    'letter %idx of %s':
+        '%idx もじめのもじ %s',
     'length of %s':
-        '%s のながさ',
+        '%s �?�?がさ',
     'unicode of %s':
         '%s のUnicode',
     'unicode %n as letter':
-        'Unicodeで %n のもじ',
+        'Unicode�? %n �?もじ',
     'is %s a %typ ?':
-        '%s は %typ がた',
+        '%s �? %typ がた',
     'is %s identical to %s ?':
-        '%s は %s とどういつ',
+        '%s �? %s とどうい�?',
 
     'type of %s':
-        '%s のかた',
+        '%s �?かた',
 
     // variables:
     'Make a variable':
-        'あたらしいへんすうをつくる',
+        'あたらしいへんすうをつく�?',
     'Variable name':
         'へんすうめい',
     'Delete a variable':
-        'へんすうをさくじょ',
+        'へんすうをさくじ�?',
 
     'set %var to %s':
-        '%var を %s にする',
+        '%var �? %s �?する',
     'change %var by %n':
-        '%var を %n ずつかえる',
+        '%var �? %n ずつかえ�?',
     'show variable %var':
         '%var ひょうじする',
     'hide variable %var':
         '%var をかくす',
     'script variables %scriptVars':
-        'スクリプトへんすう %scriptVars',
+        'スク�?プトへんすう %scriptVars',
 
     // lists:
     'list %exp':
-        'リスト %exp',
+        '�?スト %exp',
     '%s in front of %l':
-        '%s を %l のせんとうにおく',
+        '%s �? %l �?せんとう�?おく',
     'item %idx of %l':
-        '%idx ばんめ %l',
+        '%idx ばん�? %l',
     'all but first of %l':
-        '%l のせんとういがい',
+        '%l �?せんとういが�?',
     'length of %l':
-        '%l のながさ',
+        '%l �?�?がさ',
     '%l contains %s':
-        '%l に %s がふくまれているか',
+        '%l �? %s がふくまれている�?',
     'thing':
-        'なにか',
+        '�?�?�?',
     'add %s to %l':
-        '%s を %l についかする',
+        '%s �? %l �?ついかす�?',
     'delete %ida of %l':
-        '%ida を %l からさくじょする',
+        '%ida �? %l からさくじょする',
     'insert %s at %idx of %l':
-        '%s を %idx ばんめにそうにゅうする %l',
+        '%s �? %idx ばんめにそう�?ゅうする %l',
     'replace item %idx of %l with %s':
-        '%idx ばんめ %l を %s でおきかえる',
+        '%idx ばん�? %l �? %s でおきかえる',
 
     // other
     'Make a block':
@@ -601,135 +601,135 @@ SnapTranslator.dict.ja_HIRA = {
     // menus
     // snap menu
     'About...':
-        'Snap!について...',
+        'Snap!�?つい�?...',
     'Snap! website':
-        'Snap!のWebサイト',
+        'Snap!のWebサイ�?',
     'Download source':
-        'ソースをダウンロード',
+        'ソースをダウン�?ード',
     'Switch back to user mode':
-        'ユーザーモードにきりかえ',
+        'ユーザー�?ード�?きりかえ',
     'disable deep-Morphic\ncontext menus\nand show user-friendly ones':
-        'こうどなモーフィックコンテクストメニューをむこうにして\nユーザーフレンドリーなメニューをひょうじする',
+        'こうどな�?ーフィッ�?コンテクストメニューをむこう�?して\nユーザーフレンド�?ーなメニューをひょうじす�?',
     'Switch to dev mode':
-        'かいはつしゃモードにきりかえる',
+        'かい�?つしゃモード�?きりかえ�?',
     'enable Morphic\ncontext menus\nand inspectors,\nnot user-friendly!':
-        'ユーザーフレンドリーではない\nモーフィックコンテクストメニューと\nインスペクターをゆうこうにする',
+        'ユーザーフレンド�?ーで�?�?い\n�?ーフィッ�?コンテクストメニューと\nインスペ�?ターをゆうこうにする',
 
     // project menu
     'Project notes...':
-        'プロジェクトのメモ...',
+        'プロジェ�?トのメモ...',
     'New':
-        'しんき',
+        'しん�?',
     'Open...':
-        'ひらく...',
+        'ひら�?...',
     'Save':
-        'ほぞん',
+        'ほぞ�?',
     'Save As...':
-        'なまえをつけてほぞん...',
+        '�?まえをつけてほぞ�?...',
     'Import...':
         'よみこみ...',
     'file menu import hint':
-        'チェックするとレポーターをドラッグ&ドロップするとき\n'
-		+ 'そらのレポーターにフォーカスします\n\n'
-		+ 'いくつかのブラウザーではサポートされません',
+        'チェックするとレポーターをドラッ�?&ドロップするとき\n'
+		+ 'そら�?�?ポーター�?フォーカスします\n\n'
+		+ 'いくつか�?ブラウザーで�?サポートされませ�?',
     'Export project as plain text...':
-        'テキストファイルとしてプロジェクトをかきだす...',
+        'テキストファイルとしてプ�?ジェ�?トをかきだす...',
     'Export project...':
-        'プロジェクトをかきだす...',
+        'プロジェ�?トをかきだす...',
     'show project data as XML\nin a new browser window':
-        'プロジェクトのデータをXMLとして\nブラウザのあたらしいウインドウにひょうじする',
+        'プロジェ�?トのデータをXMLとし�?\nブラウザ�?あたらしいウインドウ�?ひょうじする',
     'Export blocks...':
-        'ブロックをかきだす...',
+        'ブロックをかきだ�?...',
     'show global custom block definitions as XML\nin a new browser window':
-        'グローバルカスタムブロックのていぎをXMLとして\nブラウザのあたらしいウインドウにひょうじする',
+        'グローバ�?�?スタムブ�?ック�?ていぎをXMLとし�?\nブラウザ�?あたらしいウインドウ�?ひょうじする',
     'Import tools':
-        'ツールをよみこむ',
+        'ツー�?をよみこむ',
     'load the official library of\npowerful blocks':
-        'きょうりょくなブロックのこうしき\nライブラリをよみこむ',
+        'きょうりょく�?ブロック�?こうしき\nライブラ�?をよみこむ',
 
     // cloud menu
     'Login...':
-        'ログイン...',
+        '�?グイ�?...',
     'Signup...':
         'サインアップ...',
 
     // settings menu
     'Language...':
-        'げんご...',
+        'げん�?...',
     'Zoom blocks...':
         'ブロックをズーム...',
     'Blurred shadows':
-        'はんとうめいのかげ',
+        '�?んとうめいのかげ',
     'uncheck to use solid drop\nshadows and highlights':
-        'チェックをはずすとたんしょくのかげと\nハイライトになります',
+        'チェックをはずすとたんしょく�?かげと\nハイライトに�?りま�?',
     'check to use blurred drop\nshadows and highlights':
-        'チェックするとはんとうめいのかげと\nハイライトになります',
+        'チェックするとはんとうめいのかげと\nハイライトに�?りま�?',
     'Zebra coloring':
         'じま々でひょうじ',
     'check to enable alternating\ncolors for nested blocks':
-        'チェックするといれこになった\nブロックをじま々でひょうじします',
+        'チェックするといれこ�?�?った\nブロックをじま々でひょうじしま�?',
     'uncheck to disable alternating\ncolors for nested block':
-        'チェックをはずすといれこになった\nブロックをふつうにひょうじします',
+        'チェックをはずすといれこ�?�?った\nブロックをふつう�?ひょうじしま�?',
     'Dynamic input labels':
-        'どうてきなにゅうりょくラベル',
+        'どうてき�?�?ゅうりょくラベル',
     'uncheck to disable dynamic\nlabels for variadic inputs':
-        'チェックをはずすとかへんこひきすうの\nどうてきラベルをふかにします',
+        'チェックをはずすとかへんこひきすうの\nどうてきラベ�?をふかにしま�?',
     'check to enable dynamic\nlabels for variadic inputs':
-        'チェックするとかへんこひきすうの\nどうてきラベルをかのうにします',
+        'チェックするとかへんこひきすうの\nどうてきラベ�?をか�?うにしま�?',
     'Prefer empty slot drops':
-        'そらのスロットのドロップをゆるす',
+        'そら�?スロット�?ドロップをゆるす',
     'settings menu prefer empty slots hint':
-        'せっていメニューがそらのスロットのヒントをゆるします',
+        'せっていメニューがそらのスロット�?ヒントをゆるしま�?',
     'uncheck to allow dropped\nreporters to kick out others':
-        'チェックをはずすとドロップしたレポーターが\nほかをおしだせるようになります',
+        'チェックをはずすとド�?ップした�?ポーターが\nほかをおしだせるよう�?�?りま�?',
     'Long form input dialog':
-        'ひきすうダイアログをながいけいしきにする',
+        'ひきすうダイア�?グを�?がいけいしき�?する',
     'check to always show slot\ntypes in the input dialog':
-        'チェックするとひきすうダイアログに\nつねにスロットのかたをひょうじします',
+        'チェックするとひきすうダイア�?グに\nつね�?スロット�?かたをひょうじします',
     'uncheck to use the input\ndialog in short form':
-        'チェックをはずすとひきすうダイアログをみじかくひょうじします',
+        'チェックをはずすとひきすうダイア�?グをみじかくひょうじしま�?',
     'Virtual keyboard':
         'かそうキーボード',
     'uncheck to disable\nvirtual keyboard support\nfor mobile devices':
-        'チェックをはずすとモバイルききようの\nかそうキーボードをむこうにします',
+        'チェックをはずすとモバイ�?ききようの\nかそうキーボードをむこう�?しま�?',
     'check to enable\nvirtual keyboard support\nfor mobile devices':
-        'チェックするとモバイルききようの\nかそうキーボードをゆうこうにします',
+        'チェックするとモバイ�?ききようの\nかそうキーボードをゆうこうにしま�?',
     'Input sliders':
-        'にゅうりょくスライダー',
+        '�?ゅうりょくスライダ�?',
     'uncheck to disable\ninput sliders for\nentry fields':
-        'チェックをはずすとにゅうりょくフィールドのスライダーをむこうにします',
+        'チェックをはずすとにゅうりょくフィー�?ドのスライダーをむこう�?しま�?',
     'check to enable\ninput sliders for\nentry fields':
-        'チェックするとにゅうりょくフィールドのスライダーをゆうこうにします',
+        'チェックするとにゅうりょくフィー�?ドのスライダーをゆうこう�?しま�?',
     'Clicking sound':
-        'クリックおん',
+        '�?�?ックおん',
     'uncheck to turn\nblock clicking\nsound off':
-        'チェックをはずすとブロックの\nクリックおんをきります',
+        'チェックをはずすとブ�?ックの\n�?�?ックおんをきりま�?',
     'check to turn\nblock clicking\nsound on':
-        'チェックをはずすとブロックの\nクリックおんをいれます',
+        'チェックをはずすとブ�?ックの\n�?�?ックおんをいれま�?',
     'Animations':
-        'アニメーション',
+        '�?ニメーション',
     'uncheck to disable\nIDE animations':
-        'チェックをはずすとIDEの\nアニメーションをきります',
+        'チェックをはずすとIDEの\n�?ニメーションをきりま�?',
     'check to prioritize\nscript execution':
-        'チェックするとスクリプトの\nしょりをゆうせんします',
+        'チェックするとス�?�?プトの\nしょりをゆうせんしま�?',
     'uncheck to run scripts\nat normal speed':
-        'チェックをはずすとスクリプトを\nつうじょうのそくどでじっこうします',
+        'チェックをはずすとス�?�?プトを\nつうじょうのそくどでじっこうしま�?',
     'check to enable\nIDE animations':
-        'チェックするとIDEの\nアニメーションをいれます',
+        'チェックするとIDEの\n�?ニメーションをいれま�?',
     'Turbo mode':
         'ターボモード',
     'Thread safe scripts':
-        'スクリプトをスレッドセーフにする',
+        'スク�?プトをス�?ッドセーフにする',
     'uncheck to allow\nscript reentrancy':
-        'チェックをはずすとスクリプトを\nさいにゅうかのうにします',
+        'チェックをはずすとス�?�?プトを\nさい�?ゅうかのうにしま�?',
     'check to disallow\nscript reentrancy':
-        'チェックするとスクリプトを\nさいにゅうふのうにします',
+        'チェックするとス�?�?プトを\nさい�?ゅうふのうにしま�?',
     'Prefer smooth animations':
-        'なめらかなアニメーションにする',
+        '�?めらかな�?ニメーション�?する',
     'uncheck for greater speed\nat variable frame rates':
-        'チェックをはずすとフレームレート\nあたりのそくどをあげます',
+        'チェックをはずすとフ�?ーム�?ート\nあたりのそくどをあげます',
     'check for smooth, predictable\nanimations across computers':
-        'チェックするとコンピューターかんで\nなめらかでよそくかのうなアニメーションにします',
+        'チェックするとコンピューターかん�?\n�?めらかでよそくか�?うな�?ニメーション�?しま�?',
 
     // inputs
     'with inputs':
@@ -739,15 +739,15 @@ SnapTranslator.dict.ja_HIRA = {
     'Input Names:':
         'ひきすうめい:',
     'input list:':
-        'ひきすうリスト:',
+        'ひきすう�?スト:',
 
     // context menus:
     'help':
-        'ヘルプ',
+        'ヘル�?',
 
     // blocks:
     'help...':
-        'ヘルプ...',
+        'ヘル�?...',
     'duplicate':
         'ふくせい',
     'make a copy\nand pick it up':
@@ -757,23 +757,23 @@ SnapTranslator.dict.ja_HIRA = {
     'delete':
         'さくじょ',
     'script pic...':
-        'スクリプトのがぞう...',
+        'スク�?プト�?がぞ�?...',
     'open a new window\nwith a picture of this script':
-        'このスクリプトのがぞうをひょうじするあたらしいウィンドウをひらきます',
+        'このスク�?プト�?がぞうをひょうじするあたらしいウィンドウをひらきます',
     'ringify':
-        'リングか',
+        '�?ング�?',
     'unringify':
-        'ひリングか',
+        'ひリング�?',
 
     // custom blocks:
     'delete block definition...':
-        'ブロックのていぎをさくじょ',
+        'ブロック�?ていぎをさくじょ',
     'edit...':
-        'へんしゅう...',
+        'へんしゅ�?...',
 
     // sprites:
     'edit':
-        'へんしゅう',
+        'へんしゅ�?',
     'export...':
         'かきだし...',
 
@@ -781,15 +781,15 @@ SnapTranslator.dict.ja_HIRA = {
     'show all':
         'すべてをひょうじ',
     'pic...':
-        'がぞう...',
+        'がぞ�?...',
     'open a new window\nwith a picture of the stage':
-        'このステージのがぞうで\nあたらしいウィンドウをひらく',
+        'このステージ�?がぞうで\nあたらしいウィンドウをひらく',
 
     // scripting area
     'clean up':
         'きれいにする',
     'arrange scripts\nvertically':
-        'スクリプトを\nたてにせいれつします',
+        'スク�?プトを\nたて�?せいれつしま�?',
     'add comment':
         'コメントをついか',
     'make a block...':
@@ -797,11 +797,11 @@ SnapTranslator.dict.ja_HIRA = {
 
     // costumes
     'rename':
-        'なまえをへんこう',
+        '�?まえをへんこ�?',
     'export':
         'かきだし',
     'rename costume':
-        'コスチュームのなまえをへんこう',
+        'コスチューム�?�?まえをへんこ�?',
 
     // sounds
     'Play sound':
@@ -809,11 +809,11 @@ SnapTranslator.dict.ja_HIRA = {
     'Stop sound':
         'おとをとめる',
     'Stop':
-        'ていし',
+        'てい�?',
     'Play':
         'さいせい',
     'rename sound':
-        'おとのなまえをへんこう',
+        'おと�?�?まえをへんこ�?',
 
     // dialogs
     // buttons
@@ -822,15 +822,15 @@ SnapTranslator.dict.ja_HIRA = {
     'Ok':
         'OK',
     'Cancel':
-        'キャンセル',
+        '�?ャンセル',
     'Yes':
-        'はい',
+        '�?�?',
     'No':
-        'いいえ',
+        'いい�?',
 
     // help
     'Help':
-        'ヘルプ',
+        'ヘル�?',
 
     // zoom blocks
     'Zoom blocks':
@@ -838,15 +838,15 @@ SnapTranslator.dict.ja_HIRA = {
     'build':
         'つくろう',
     'your own':
-        'あなたじしんの',
+        'あなたじしん�?',
     'blocks':
-        'ブロックを',
+        'ブロック�?',
     'normal (1x)':
         'ノーマル (1x)',
     'demo (1.2x)':
         'デモ (1.2x)',
     'presentation (1.4x)':
-        'プレゼンテーション (1.4x)',
+        'プレゼンテーショ�? (1.4x)',
     'big (2x)':
         'だい (2x)',
     'huge (4x)':
@@ -854,99 +854,99 @@ SnapTranslator.dict.ja_HIRA = {
     'giant (8x)':
         'きょだい (8x)',
     'monstrous (10x)':
-        'ちょうきょだい (10x)',
+        'ちょうきょだ�? (10x)',
 
     // Project Manager
     'Untitled':
         'めいしょうみせってい',
     'Open Project':
-        'プロジェクトをひらく',
+        'プロジェ�?トをひら�?',
     'Open':
-        'ひらく',
+        'ひら�?',
     '(empty)':
         '(そら)',
     'Saved!':
-        'ほぞんしました!',
+        'ほぞんしまし�?!',
     'Delete Project':
-        'プロジェクトをさくじょ',
+        'プロジェ�?トをさくじょ',
     'Are you sure you want to delete':
-        'ほんとうにさくじょしますか',
+        'ほんとう�?さくじょしますか',
     'rename...':
-        'なまえをへんこう...',
+        '�?まえをへんこ�?...',
 
     // costume editor
     'Costume Editor':
-        'コスチュームエディター',
+        'コスチュームエディタ�?',
     'click or drag crosshairs to move the rotation center':
-        'クリックかドラッグでかいてんちゅうしんをいどうする',
+        '�?�?ックかドラッグでかいてんちゅうしんをいどうす�?',
 
     // project notes
     'Project Notes':
-        'プロジェクトのメモ',
+        'プロジェ�?トのメモ',
 
     // new project
     'New Project':
-        'あたらしいプロジェクト',
+        'あたらしいプ�?ジェ�?�?',
     'Replace the current project with a new one?':
-        'げんざいのプロジェクトをあたらしいものでおきかえますか?',
+        'げんざい�?プロジェ�?トをあたらしいも�?でおきかえますか?',
 
     // open project
     'Open Projekt':
-        'プロジェクトをひらく',
+        'プロジェ�?トをひら�?',
 
     // save project
     'Save Project As...':
-        'なまえをつけてプロジェクトをほぞん...',
+        '�?まえをつけてプロジェ�?トをほぞ�?...',
 
     // export blocks
     'Export blocks':
-        'ブロックをかきだし',
+        'ブロックをかきだ�?',
     'Import blocks':
-        'ブロックをよみこみ',
+        'ブロックをよみこ�?',
     'this project doesn\'t have any\ncustom global blocks yet':
-        'このプロジェクトはカスタムグローバルブロックをもっていません',
+        'このプロジェ�?トは�?スタムグ�?ーバ�?ブロックをもっていません',
     'select':
         'せんたく',
     'all':
-        'すべて',
+        'すべ�?',
     'none':
-        'なし',
+        '�?�?',
 
     // variable dialog
     'for all sprites':
-        'すべてのスプライトよう',
+        'すべてのスプライトよ�?',
     'for this sprite only':
-        'このスプライトよう',
+        'このスプライトよ�?',
 
     // block dialog
     'Change block':
-        'ブロックをへんこう',
+        'ブロックをへんこ�?',
     'Command':
         'コマンド',
     'Reporter':
-        'モニター',
+        '�?ニタ�?',
     'Predicate':
         'じゅつご',
 
     // block editor
     'Block Editor':
-        'ブロックエディター',
+        'ブロックエディタ�?',
     'Apply':
         'てきよう',
 
     // block deletion dialog
     'Delete Custom Block':
-        'カスタムブロックをさくじょ',
+        '�?スタムブ�?ックをさくじ�?',
     'block deletion dialog text':
-        'このカスタムブロックとすべてのインスタンスを\nさくじょしてもよいですか?',
+        'この�?スタムブ�?ックとすべて�?インスタンスを\nさくじょしてもよいですか?',
 
     // input dialog
     'Create input name':
-        'ひきすうめいをさくせい',
+        'ひきすうめいをさくせ�?',
     'Edit input name':
         'ひきすうめいをへんしゅう',
     'Edit label fragment':
-        'ラベルのだんぺんをへんしゅう',
+        'ラベ�?�?だんぺんをへんしゅう',
     'Title text':
         'タイトルテキスト',
     'Input name':
@@ -954,51 +954,51 @@ SnapTranslator.dict.ja_HIRA = {
     'Delete':
         'さくじょ',
     'Object':
-        'オブジェクト',
+        '�?ブジェク�?',
     'Number':
         'かず',
     'Text':
         'テキスト',
     'List':
-        'リスト',
+        '�?スト',
     'Any type':
-        'ぜんタイプ',
+        'ぜんタイ�?',
     'Boolean (T/F)':
-        'しんぎち (はい/いいえ)',
+        'しんぎち (�?�?/いい�?)',
     'Command\n(inline)':
-        'コマンド\n(インライン)',
+        'コマンド\n(インライ�?)',
     'Command\n(C-shape)':
         'コマンド \n(Cけい)',
     'Any\n(unevaluated)':
-        'にんい\n(みひょうか)',
+        '�?んい\n(みひょう�?)',
     'Boolean\n(unevaluated)':
-        'しんぎち\n(みひょうか)',
+        'しんぎち\n(みひょう�?)',
     'Single input.':
         'たんいつひきすう.',
     'Default Value:':
         'デフォルトち:',
     'Multiple inputs (value is list of inputs)':
-        'ふくすうのひきすう (あたいはひきすうのリスト)',
+        'ふくすう�?ひきすう (あたいはひきすう�?�?スト)',
     'Upvar - make internal variable visible to caller':
-        'Upvar - よびだしもとからみえるないぶてきなへんすう',
+        'Upvar - よびだしもとからみえるないぶてき�?へんすう',
 
    // About Snap
     'About Snap':
-        'Snapについて',
+        'Snap�?つい�?',
     'Back...':
-        'もどる...',
+        'もど�?...',
     'License...':
-        'ライセンス...',
+        'ライセン�?...',
     'Modules...':
-        'モジュール...',
+        '�?ジュール...',
     'Credits...':
-        'クレジット...',
+        '�?�?ジッ�?...',
     'Translators...':
         'ほんやくしゃ',
     'License':
-        'ライセンス',
+        'ライセン�?',
     'current module versions:':
-        'げんざいのモジュールのバージョン:',
+        'げんざい�?�?ジュール�?バージョ�?:',
     'Contributors':
         'こうけんしゃ:',
     'Translations':
@@ -1006,48 +1006,48 @@ SnapTranslator.dict.ja_HIRA = {
 
     // variable watchers
     'normal':
-        'つうじょう',
+        'つうじょ�?',
     'large':
         'だい',
     'slider':
-        'スライダー',
+        'スライダ�?',
     'slider min...':
         'スライダーのさいしょうち...',
     'slider max...':
-        'スライダーのさいだいち...',
+        'スライダーのさいだい�?...',
     'import...':
         'よみこみ...',
     'Slider minimum value':
         'スライダーのさいしょうち',
     'Slider maximum value':
-        'スライダーのさいだいち',
+        'スライダーのさいだい�?',
 
     // list watchers
     'length: ':
-        'ながさ: ',
+        '�?がさ: ',
 
     // coments
     'add comment here...':
-        'ここにコメントをついか...',
+        'ここ�?コメントをついか...',
 
     // drow downs
     // directions
     '(90) right':
         '(90) みぎ',
     '(-90) left':
-        '(-90) ひだり',
+        '(-90) ひだ�?',
     '(0) up':
-        '(0) じょう',
+        '(0) じょ�?',
     '(180) down':
-        '(180) か',
+        '(180) �?',
 
     // collision detection
     'mouse-pointer':
-        'マウスのポインター',
+        'マウスのポインタ�?',
     'edge':
-        'はし',
+        '�?�?',
     'pen trails':
-        'ペンのきせき',
+        'ペン�?きせ�?',
 
     // costumes
     'Turtle':
@@ -1063,13 +1063,13 @@ SnapTranslator.dict.ja_HIRA = {
     'space':
         'スペース',
     'up arrow':
-        'うわむきやじるし',
+        'うわむきやじる�?',
     'down arrow':
-        'したむきやじるし',
+        'したむきやじる�?',
     'right arrow':
-        'みぎむきやじるし',
+        'みぎむきやじる�?',
     'left arrow':
-        'ひだりむきやじるし',
+        'ひだりむきやじる�?',
     'a':
         'a',
     'b':
@@ -1145,11 +1145,11 @@ SnapTranslator.dict.ja_HIRA = {
 
     // messages
     'new...':
-        'しんき...',
+        'しん�?...',
 
     // math functions
     'abs':
-        'ぜったいち',
+        'ぜったい�?',
     'sqrt':
         'へいほうこん',
     'sin':
@@ -1177,59 +1177,59 @@ SnapTranslator.dict.ja_HIRA = {
     'Boolean':
         'しんぎち',
     'list':
-        'リスト',
+        '�?スト',
     'command':
         'コマンド',
     'reporter':
-        'レポーター',
+        '�?ポーター',
     'predicate':
         'じゅつご',
 
     // list indices
     'last':
-        'さいご',
+        'さい�?',
     'any':
-        'にんい',
+        '�?んい',
 
     // missing entries
     'Reference manual':
-        'リファレンスマニュアル',
+        '�?ファ�?ンスマニュア�?',
     'Sign in':
-        'サインイン',
+        'サインイ�?',
     'User name:':
         'ユーザーめい:',
     'Password:':
-        'パスワード:',
+        'パス�?ード:',
     'stay signed in on this computer\nuntil logging out':
-        'ログアウトするまでこのコンピューターに\nサインインしたままにする',
+        '�?グアウトするまでこのコンピューターに\nサインインしたままにする',
     'Sign up':
         'サインアップ',
     'User name:':
         'ユーザーめい:',
     'Password:':
-        'パスワード:',
+        'パス�?ード:',
     'Birth date:':
-        'たんじょうづき:',
+        'たんじょうづ�?:',
     'Birth date:':
         'とし:',
     'January':
-        '１がつ',
+        '１が�?',
     'February':
-        '２がつ',
+        '２が�?',
     'March':
-        '３がつ',
+        '３が�?',
     'April':
-        '４がつ',
+        '４が�?',
     'May':
-        '５がつ',
+        '５が�?',
     'June':
-        '６がつ',
+        '６が�?',
     'July':
-        '７がつ',
+        '７が�?',
     'August':
-        '８がつ',
+        '８が�?',
     'September':
-        '９がつ',
+        '９が�?',
     'October':
         '１０がつ',
     'November':
@@ -1237,14 +1237,14 @@ SnapTranslator.dict.ja_HIRA = {
     'December':
         '１２がつ',
     '1993 or before':
-        '１９９３ねんいぜん',
+        '１９９３�?んいぜん',
     'E-mail address:':
-        'でんしメールアドレス:',
+        'でんしメール�?ドレ�?:',
     'Terms of Service...':
         'サービスりようきやく...',
     'Privacy...':
         'こじんじょうほう...',
     'I have read and agree\nto the Terms of Service':
-        'サービスりようきやくをよみ\nそれにどういします',
+        'サービスりようきやくをよみ\nそれ�?どういします',
 
 };
