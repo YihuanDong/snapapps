@@ -34,6 +34,118 @@ IDE_Morph.prototype.exportIndex = "cellular.html";
 /***************************** OVERRIDES *****************************/
 /*********************************************************************/
 
+IDE_Morph.prototype.snapMenu = function () {
+    var menu,
+        myself = this,
+        world = this.world();
+
+    menu = new MenuMorph(this);
+    menu.addItem('About...', 'aboutSnap');
+    menu.addLine();
+    menu.addItem(
+        'Reference manual',
+        function () {
+            var url = myself.resourceURL('help', 'SnapManual.pdf');
+            window.open(url, 'SnapReferenceManual');
+        }
+    );
+    /* SNAPAPPS */
+    menu.addItem(
+        getSnapAppsName() + ' website',
+        function () {
+            window.open('http://flipt.org/', 'SnapappsWebsite');
+        }
+    );
+    /* END SNAPAPPS */
+    menu.addItem(
+        'Snap! website',
+        function () {
+            window.open('http://snap.berkeley.edu/', 'SnapWebsite');
+        }
+    );
+    /* SNAPAPPS */
+    menu.addItem(
+        'View on Github',
+        function () {
+            window.open(
+                'https://github.com/berndmeyer/snapapps/',
+                'SnapSource'
+            );
+        }
+    );
+    /* END SNAPAPPS */
+    if (world.isDevMode) {
+        menu.addLine();
+        menu.addItem(
+            'Switch back to user mode',
+            'switchToUserMode',
+            'disable deep-Morphic\ncontext menus'
+                + '\nand show user-friendly ones',
+            new Color(0, 100, 0)
+        );
+    } else if (world.currentKey === 16) { // shift-click
+        menu.addLine();
+        menu.addItem(
+            'Switch to dev mode',
+            'switchToDevMode',
+            'enable Morphic\ncontext menus\nand inspectors,'
+                + '\nnot user-friendly!',
+            new Color(100, 0, 0)
+        );
+    }
+    menu.popup(world, this.logo.bottomLeft());
+};
+
+IDE_Morph.prototype.createLogo = function () {
+    var myself = this;
+
+    if (this.logo) {
+        this.logo.destroy();
+    }
+
+    this.logo = new Morph();
+    this.logo.texture = getSnapLogoImage();
+
+    this.logo.drawNew = function () {
+        this.image = newCanvas(this.extent());
+        var context = this.image.getContext('2d'),
+            gradient = context.createLinearGradient(
+                0,
+                0,
+                this.width(),
+                0
+            );
+        gradient.addColorStop(0, 'black');
+        gradient.addColorStop(0.5, myself.frameColor.toString());
+        context.fillStyle = MorphicPreferences.isFlat ?
+                myself.frameColor.toString() : gradient;
+        context.fillRect(0, 0, this.width(), this.height());
+        if (this.texture) {
+            this.drawTexture(this.texture);
+        }
+    };
+
+    this.logo.drawCachedTexture = function () {
+        var context = this.image.getContext('2d');
+        context.drawImage(
+            this.cachedTexture,
+            5,
+            Math.round((this.height() - this.cachedTexture.height) / 2)
+        );
+        this.changed();
+    };
+
+    this.logo.mouseClickLeft = function () {
+        myself.snapMenu();
+    };
+
+    this.logo.color = new Color();
+    /* SNAPAPPS -- needed to add more room for logo*/
+    this.logo.setExtent(getSnapAppsLogoExtent()); // dimensions are fixed
+    /* END SNAPAPPS */
+    this.add(this.logo);
+};
+
 IDE_Morph.prototype.snapAppsGetIsDraggableOverride = function () {
     return this.currentSprite.areClonesDraggable;
 };
@@ -796,7 +908,7 @@ IDE_Morph.prototype.cloudMenu = function() {
         menu.addItem(
             'open shared project from cloud...',
             function () {
-                myself.prompt('Author nameï¿½?', function (usr) {
+                myself.prompt('Author nameï¿??', function (usr) {
                     myself.prompt('Project name...', function (prj) {
                         var id = 'Username=' +
                             encodeURIComponent(usr.toLowerCase()) +

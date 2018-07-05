@@ -553,7 +553,7 @@ IDE_Morph.prototype.createLogo = function () {
     }
 
     this.logo = new Morph();
-    this.logo.texture = getSnapLogoImage();
+    this.logo.texture = this.logoURL;
 
     this.logo.drawNew = function () {
         this.image = newCanvas(this.extent());
@@ -589,9 +589,9 @@ IDE_Morph.prototype.createLogo = function () {
     };
 
     this.logo.color = new Color();
-    /* SNAPAPPS -- needed to add more room for logo*/
-    this.logo.setExtent(getSnapAppsLogoExtent()); // dimensions are fixed
-    /* END SNAPAPPS */
+
+    this.logo.setExtent(new Point(200, 28)); // dimensions are fixed
+
     this.add(this.logo);
 };
 
@@ -906,16 +906,10 @@ IDE_Morph.prototype.createControlBar = function () {
     this.controlBar.add(cloudButton);
     this.controlBar.cloudButton = cloudButton; // for menu positioning
 
-    /* SNAPAPPS HOOK*/
-    this.createSnapAppsButtons(colors);
-    var rightHandButtons = this.getRightHandButtons(stopButton);
-    /* END SNAPAPPS HOOK*/
 
     this.controlBar.fixLayout = function () {
         x = this.right() - padding;
-	/* SNAPAPPS HOOK*/
-        rightHandButtons.forEach(
-    /* END SNAPAPPS HOOK*/
+        [stopButton, pauseButton, startButton].forEach(
             function (button) {
                 button.setCenter(myself.controlBar.center());
                 button.setRight(x);
@@ -2540,8 +2534,8 @@ IDE_Morph.prototype.userMenu = function () {
 
 IDE_Morph.prototype.snapMenu = function () {
     var menu,
-        myself = this,
-        world = this.world();
+    myself = this,
+    world = this.world();
 
     menu = new MenuMorph(this);
     menu.addItem('About...', 'aboutSnap');
@@ -2553,31 +2547,21 @@ IDE_Morph.prototype.snapMenu = function () {
             window.open(url, 'SnapReferenceManual');
         }
     );
-    /* SNAPAPPS */
-    menu.addItem(
-        getSnapAppsName() + ' website',
-        function () {
-            window.open('http://flipt.org/', 'SnapappsWebsite');
-        }
-    );
-    /* END SNAPAPPS */
     menu.addItem(
         'Snap! website',
         function () {
             window.open('http://snap.berkeley.edu/', 'SnapWebsite');
         }
     );
-    /* SNAPAPPS */
     menu.addItem(
-        'View on Github',
+        'Download source',
         function () {
             window.open(
-                'https://github.com/berndmeyer/snapapps/',
+                'http://snap.berkeley.edu/snapsource/snap.zip',
                 'SnapSource'
             );
         }
     );
-    /* END SNAPAPPS */
     if (world.isDevMode) {
         menu.addLine();
         menu.addItem(
